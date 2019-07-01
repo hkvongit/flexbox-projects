@@ -22,3 +22,16 @@ body{
     border:2px solid #16a085;
     color:rgb(255, 255, 255)
 }
+
+.container > div{
+    color:#ecf0f1;
+    background-color:#e74c3c;
+    border:1px solid white;
+    padding:20px;
+    margin:10px;
+    text-align: center;
+} 
+
+.container >div:hover{
+    background-color: #e67e22;
+}
