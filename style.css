@@ -1,0 +1,24 @@
+body{
+    background: linear-gradient(to right, #4ca1af, #c4e0e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg{
+    height : 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.form > *{
+    border:0;
+    padding: 10px;
+    background:#3498db;;
+    font-size:30px;
+    color:white;
+}
+.form input[type="submit"]{
+    background:#2ecc71;
+    border:2px solid #16a085;
+    color:rgb(255, 255, 255)
+}
